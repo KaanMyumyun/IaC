@@ -137,7 +137,7 @@ resource "aws_instance" "example" {
   })
 
   tags = {
-    Name = "hello"
+    Name = "hospitalsystem"
   }
 }
 
