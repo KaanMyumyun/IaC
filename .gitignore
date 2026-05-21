@@ -1,0 +1,37 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Variable files
+*.tfvars
+*.tfvars.json
+
+# temp files
+*~
+*.bak
+*.tmp
+*.swp
+*.swo
+
+
+*.tfplan
+plan.out
+
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+*.log
+
+
+.DS_Store
+Thumbs.db
+
+
+# Keep this committed for reproducible providers
+# .terraform.lock.hcl
